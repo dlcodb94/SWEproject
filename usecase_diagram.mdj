@@ -2810,9 +2810,9 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 330.5,
+											"left": 331,
 											"top": 100,
-											"width": 55,
+											"width": 56,
 											"height": 13,
 											"text": "화원 가입"
 										},
@@ -2827,7 +2827,7 @@
 											"parentStyle": true,
 											"left": -2.3544921875,
 											"top": -636,
-											"width": 179.10546875,
+											"width": 183.955078125,
 											"height": 13,
 											"text": "(from 공유 자전거 대여 시스템)"
 										},
@@ -2848,9 +2848,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 325.5,
+									"left": 326,
 									"top": 93,
-									"width": 65.61181640625,
+									"width": 66,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGWyKTJWhkEUkE="
@@ -2956,7 +2956,7 @@
 							"containerChangeable": true,
 							"left": 312,
 							"top": 88,
-							"width": 92,
+							"width": 94,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGWyKTJWhkDNLA="
@@ -3323,7 +3323,7 @@
 											"parentStyle": true,
 											"left": -2.3544921875,
 											"top": -428,
-											"width": 179.10546875,
+											"width": 183.955078125,
 											"height": 13,
 											"text": "(from 공유 자전거 대여 시스템)"
 										},
@@ -4852,6 +4852,106 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "자전거 대여"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGW6Ak+OmsA6Oc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGW6Ak+O2sBPc4=",
+					"_parent": {
+						"$ref": "AAAAAAGW6Ak+OmsA6Oc="
+					},
+					"name": "ClassDiagram1"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW6Ao9EWw3zIM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGW6Ao9EWw4ipQ=",
+					"_parent": {
+						"$ref": "AAAAAAGW6Ao9EWw3zIM="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLCommunicationDiagram",
+							"_id": "AAAAAAGW6Ao9EWw5KGk=",
+							"_parent": {
+								"$ref": "AAAAAAGW6Ao9EWw4ipQ="
+							},
+							"name": "CommunicationDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGW6Ao9EWw6sy4=",
+									"_parent": {
+										"$ref": "AAAAAAGW6Ao9EWw5KGk="
+									},
+									"model": {
+										"$ref": "AAAAAAGW6Ao9EWw5KGk="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGW6Ao9EWw7yCs=",
+											"_parent": {
+												"$ref": "AAAAAAGW6Ao9EWw6sy4="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 146.6689453125,
+											"height": 13,
+											"text": "CommunicationDiagram1"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGW6Ao9EWw8ftQ=",
+											"_parent": {
+												"$ref": "AAAAAAGW6Ao9EWw6sy4="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 13,
+											"top": 13,
+											"width": 13.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGW6Ao9EWw7yCs="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGW6Ao9EWw8ftQ="
+									}
+								}
+							]
+						}
+					]
 				}
 			]
 		}
